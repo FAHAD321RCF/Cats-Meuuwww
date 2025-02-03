@@ -102,9 +102,10 @@
                 </div>
             </div>
         </section>
-        <!-- trending pet products -->
+ 
         <section class="px-4 lg:px-20 py-10 bg-[#FFF9F4] mt-72 lg:mt-0">
             <h3 class="text-4xl font-bold mb-6 adlam hidden lg:flex">Trending Pet Products</h3>
+            <h3 class="text-4xl font-bold mb-6 adlam lg:hidden">Browse By Categories</h3>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div class="bg-[#F9DF8A] p-6 rounded-lg">
                     <div class="mt-5 ">
@@ -115,7 +116,7 @@
                     <img class="-mt-12 lg:ml-32 ml-8" src="./Assignment_03_Category_0001/c1-assets/cute-pet-mid.png" alt="T-Shirt For Dogs" >
                 </div>
     
-                <!-- Product Grid -->
+               
                 <div class="lg:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-4">
                     <div class=" bg-[#1111111A] p-4 rounded-lg shadow flex">
                         <div class="lg:mt-8 lg:ml-14 mt-4"> 
@@ -127,7 +128,7 @@
                         <h3 class="text-xl">$39.99</h3>
                         </div>
                     </div>
-                    <!-- Repeat for other products -->
+                    
                     <div class=" bg-[#1111111A] p-4 rounded-lg shadow flex">
                         <div class="lg:mt-8 lg:ml-14 mt-4"> 
                             <img class="flex bg-[#FFF9F4] rounded-lg px-3 py-3 " src="./Assignment_03_Category_0001/c1-assets/fish-cartoon.png" alt="Pet Bed" >
@@ -279,12 +280,11 @@
 
 
         </section>
-
-        <section class="bg-[#FFF9F4] py-12 w-4/5 lg:ml-60 ml-11">
+        <section class="bg-[#FFF9F4] py-12 w-4/5 h-fit absolute lg:ml-52 ml-11 rounded-lg">
             <div class="container mx-auto px-4">
               <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0">
                 <div class="md:w-1/2">
-                  <img class="w-full" src="./Assignment_03_Category_0001/c1-assets/cute-pet-small.png" alt="">
+                  <img class="lg:ml-36" src="./Assignment_03_Category_0001/c1-assets/cute-pet-mid.png" alt="">
                 </div>
                 <div class="md:w-1/2 space-y-4">
                   <h3 class="text-3xl font-bold adlam">Get Pawsome News!</h3>
@@ -298,10 +298,34 @@
             </div>
           </section>
 
+        
 
     </main>
-    <footer>
+    <footer class="bg-[#FFDC2680] mt-96 h-fit py-12">
 
-    </footer>
+     
+
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="lg:mt-32 mt-96">
+            <h1 class="text-2xl font-semibold"><i class="fa-solid fa-paw"></i>Browse<span class="text-yellow-500">4</span>Pets</h1>
+            
+           <p class="text-gray-500 text-lg">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends.</p>
+          </div>
+          <div class="lg:mt-28 py-4">
+            <h3>Find a pet</h3>
+            <h3>Breeds</h3>
+            <h3>Contact us</h3>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg lg:mt-32">Follow Us</h4>
+            <div class="flex space-x-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
